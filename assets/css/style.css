@@ -1,25 +1,64 @@
-body{
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
     margin: 0;
     padding: 0;
     background-color: rgb(17, 17, 17);
     color: white;
 }
 
-body *{
+body * {
     margin: 0;
     padding: 0;
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 /* NAVBAR */
-.nav-logo{
+.nav-logo {
     width: 2rem;
 }
 
-/* HEADER */
-header{
-    height: 100vh;
+.card {
+    padding: 0;
+}
+
+/* SECCION DESTACADOS */
+
+.contenedor-img{
+    height: 60%;
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06)
+}
+
+@media (min-width: 720px) {
+    .contenedor-img{
+        height: 50%;
+    }
+    .card {
+        width: calc((100% / 2) - 20px)
+    }
+}
+
+@media (min-width: 1140px) {
+    .card {
+        width: calc((100% / 4) - 20px)
+    }
+}
+
+/* FOOTER */
+footer i {
+    font-size: 25px;
 }
