@@ -12,17 +12,20 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link rel="icon" type="image/svg+xml" href="assets/img/viajes.svg" sizes="any">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/viajes.svg" sizes="any">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>Viajes Chile</title>
 </head>
 
 <body>
 
     <!-- nav -->
-    <nav class="navbar cabeza navbar-expand-lg navbar-dark bg-info">
-        <div class="container">
-            <a class="navbar-brand" href="#">Viajes Chile </a>
+    <nav class="navbar fixed-top cabeza navbar-expand-lg navbar-dark bg-info px-4">
+        <div class="container d-flex">
+            <div class="d-flex">
+                <img src="assets/img/viajes.svg" class="nav-logo" alt="Logo de Viajes Chile">
+                <a class="navbar-brand mx-2" href="#">Viajes Chile </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,13 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#inicio">Inicio</a>
+                        <a class="nav-link active" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#recetas">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#nosotros">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -72,7 +75,7 @@
     </header>
 
     <!-- seccion quienes somos -->
-    <section class="container-fluid">
+    <section id="quienes" class="container-fluid">
         <div>
             <h2 class="text-center">¿Quiénes somos?</h2>
         </div>
@@ -110,7 +113,7 @@
     </section>
 
     <!-- seccion destacados -->
-    <section class="container-fluid">
+    <section id="destacados" class="container-fluid">
         <h2 class="text-center">Destacados</h2>
         <hr class="bg-info">
         <div class="card-deck">
@@ -150,7 +153,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid">
+    <section id="contacto" class="container-fluid">
         <h2 class="text-center">Contacto</h2>
         <hr class="bg-info">
     </section>

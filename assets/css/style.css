@@ -10,3 +10,7 @@ body *{
     padding: 0;
 }
 
+/* NAVBAR */
+.nav-logo{
+    width: 2rem;
+}
