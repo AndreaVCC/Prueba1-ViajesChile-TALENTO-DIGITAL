@@ -36,6 +36,11 @@ html {
     padding: 0;
 }
 
+/* HEADER */
+header{
+    margin-top: 55px;
+}
+
 /* SECCION DESTACADOS */
 
 .contenedor-img{
