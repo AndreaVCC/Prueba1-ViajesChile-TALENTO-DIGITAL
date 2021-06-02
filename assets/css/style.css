@@ -3,6 +3,14 @@ html {
     overflow-x: hidden;
 }
 
+.bg-color-nav{
+    background-color: rgba(38, 155, 164, 0.9);
+}
+
+.bg-color{
+    background-color: #269BA4;
+}
+
 body {
     margin: 0;
     padding: 0;

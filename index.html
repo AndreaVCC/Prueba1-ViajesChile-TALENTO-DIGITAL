@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Se usa zxx para evitar el warning en el validator ya que se esta usando Lorem -->
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +21,7 @@
 <body>
 
     <!-- nav -->
-    <nav class="navbar fixed-top cabeza navbar-expand-lg navbar-dark bg-info px-4">
+    <nav class="navbar fixed-top cabeza navbar-expand-lg navbar-dark bg-color-nav px-4">
         <div class="container d-flex">
             <div class="d-flex">
                 <img src="assets/img/viajes.svg" class="nav-logo" alt="Logo de Viajes Chile">
@@ -78,11 +79,11 @@
     <section id="quienes" class="container">
         <div class="py-4">
             <h2 class="text-center">¿Quiénes somos?</h2>
-            <hr class="bg-info mt-3">
+            <hr class="bg-color mt-3">
         </div>
         <div class="row">
             <div class="col-12 mb-sm-3 col-md-6 col-lg-4">
-                <i class="fas fa-2x fa-plane container bg-info text-center py-1 my-1"></i>
+                <i class="fas fa-2x fa-plane container bg-color text-center py-1 my-1"></i>
                 <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempora
                     dicta ab reprehenderit,
                     fugiat qui, repudiandae odit quas accusantium nulla ducimus maxime eos distinctio! Saepe id quia
@@ -100,10 +101,10 @@
                     quaerat minus est ad enim. Quas necessitatibus ducimus ex odit aspernatur deleniti quidem, earum
                     vitae inventore suscipit? sdsdsd Incidunt!
                 </p>
-                <i class="fas fa-2x fa-mountain container bg-info text-center py-1 my-1"></i>
+                <i class="fas fa-2x fa-mountain container bg-color text-center py-1 my-1"></i>
             </div>
             <div class="col-12 mb-sm-3 col-md-12 col-lg-4">
-                <i class="fas fa-2x fa-route container bg-info text-center py-1 my-1"></i>
+                <i class="fas fa-2x fa-route container bg-color text-center py-1 my-1"></i>
                 <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempora
                     dicta ab reprehenderit,
                     fugiat qui, repudiandae odit quas accusantium nulla ducimus maxime eos distinctio! Saepe id quia
@@ -119,7 +120,7 @@
     <section id="destacados" class="container">
         <div class="py-4">
             <h2 class="text-center">Destacados</h2>
-            <hr class="bg-info mt-3">
+            <hr class="bg-color mt-3">
         </div>
         <div class="d-flex flex-wrap justify-content-between">
             <div class="card m-1 ">
@@ -127,7 +128,7 @@
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="colaciones">
 
                 </div>
-                <div class="card-body bg-info">
+                <div class="card-body bg-color">
                     <h5 class="card-title">Lorem ipsum</h5>
                     <p class="card-text">Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -140,7 +141,7 @@
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="desayunos">
 
                 </div>
-                <div class="card-body bg-info">
+                <div class="card-body bg-color">
                     <h5 class="card-title">Lorem ipsum</h5>
                     <p class="card-text">Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -151,7 +152,7 @@
                 <div class="contenedor-img">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="bebidas">
                 </div>
-                <div class="card-body bg-info">
+                <div class="card-body bg-color">
                     <h5 class="card-title">Lorem ipsum</h5>
                     <p class="card-text">Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -162,7 +163,7 @@
                 <div class="contenedor-img">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="Verduras">
                 </div>
-                <div class="card-body bg-info">
+                <div class="card-body bg-color">
                     <h5 class="card-title">Lorem ipsum</h5>
                     <p class="card-text">Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -171,13 +172,33 @@
             </div>
         </div>
     </section>
-    <section id="contacto" class="container-fluid">
+    <section id="contacto" class="container pb-4">
         <div class="py-4">
             <h2 class="text-center">Contacto</h2>
-            <hr class="bg-info mt-3">
+            <hr class="bg-color mt-3">
         </div>
+
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/sRzRUZ9M?typeform-medium=embed-snippet"
+            style="width: 100%; height: 500px;"></div>
+        <script>
+            (function () {
+                var qs, js, q, s, d = document,
+                    gi = d.getElementById,
+                    ce = d.createElement,
+                    gt = d.getElementsByTagName,
+                    id = "typef_orm",
+                    b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            })()
+        </script>
     </section>
-    <footer class="bg-info text-center row align-items-center py-3">
+    <footer class="bg-color text-center row align-items-center py-3">
         <div class="col-12 col-sm-6 ">
             <p class="font-weight-bold"> VIAJES CHILE </p>
         </div>
