@@ -10,7 +10,16 @@ body *{
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* NAVBAR */
 .nav-logo{
     width: 2rem;
+}
+
+/* HEADER */
+header{
+    height: 100vh;
 }
