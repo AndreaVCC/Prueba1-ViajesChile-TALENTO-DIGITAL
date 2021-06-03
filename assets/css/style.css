@@ -1,63 +1,60 @@
+/* GENERAL */
 body,
 html {
     overflow-x: hidden;
 }
-
-.bg-color-nav{
-    background-color: rgba(38, 155, 164, 0.9);
+html {
+    scroll-behavior: smooth;
 }
-
-.bg-color{
-    background-color: #269BA4;
-}
-
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(17, 17, 17);
     color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
-
 body * {
     margin: 0;
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
+/* CLASES COMUNES */
+.bg-color-nav {
+    background-color: rgba(38, 155, 164, 0.9);
+}
+.bg-color {
+    background-color: #269BA4;
 }
 
 /* NAVBAR */
 .nav-logo {
     width: 2rem;
 }
-
 .card {
     padding: 0;
 }
 
+
 /* HEADER */
-header{
+header {
     margin-top: 55px;
 }
 
 /* SECCION DESTACADOS */
-
-.contenedor-img{
+.contenedor-img {
     height: 60%;
 }
-
-.card-img-top{
+.card-img-top {
     height: 100%;
 }
-
 .card:hover {
     transform: scale(1.01);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06)
 }
 
 @media (min-width: 720px) {
-    .contenedor-img{
+    .contenedor-img {
         height: 50%;
     }
     .card {
