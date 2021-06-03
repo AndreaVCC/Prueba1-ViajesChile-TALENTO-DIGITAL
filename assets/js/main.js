@@ -14,3 +14,13 @@
         q.parentNode.insertBefore(js, q)
     }
 })()
+
+// efecto hover con jquery en los li del navbar
+$('.aplicar-under').hover(
+    function(){
+      $(this).addClass('under');  
+    },
+    function(){
+      $(this).removeClass('under');
+    }
+    );

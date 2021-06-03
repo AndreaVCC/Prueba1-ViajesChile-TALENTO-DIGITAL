@@ -34,6 +34,9 @@ body * {
 .card {
     padding: 0;
 }
+.under{
+    text-decoration: underline;
+}
 
 
 /* HEADER */
